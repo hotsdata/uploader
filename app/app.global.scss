@@ -1,0 +1,99 @@
+@import "~font-awesome/css/font-awesome.css";
+@import "~bulma/bulma";
+
+
+$fonts : Helvetica, Arial;
+
+$blue: #205da6;
+$purple: #271039;
+$color-light-blue: #205DA6;
+$color-purple: #232856;
+$color-off-black: #120f2b;
+
+$color-border: $color-light-blue;
+
+body {
+  position: relative;
+  color: white;
+  height: 100vh;
+  background-color: #232C39;
+  background-image: url('../assets/stormlogs_bg.jpg');
+  font-family: Arial, Helvetica, Helvetica Neue, serif;
+  font-size: 12px;
+  overflow-y: hidden;
+}
+
+h2 {
+  margin: 0;
+  font-size: 2.25rem;
+  font-weight: bold;
+  letter-spacing: -.025em;
+  color: #fff;
+}
+
+p {
+  font-size: 24px;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  color: white;
+  opacity: .75;
+  text-decoration: none;
+}
+
+a:hover {
+  opacity: 1;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.table {
+  width: 100%;
+  border: 1px solid $color-border;
+  margin-bottom: 20px;
+  border-spacing: 0;
+  border-collapse: separate;
+  font-weight: bold;
+
+  caption {
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+  }
+
+  th {
+    background-color: #100F24;
+    padding: 10px 5px;
+    font-size: 1.1em;
+  }
+
+  tr:nth-child(odd) {
+    background-color: #131632;
+  }
+
+  tr:nth-child(even) {
+    background-color: #111027;
+  }
+
+  td {
+    padding: 5px;
+    color: white;
+  }
+}
+
+table {
+  border-width: 0;
+  border-spacing: 0;
+  border-style: outset;
+  border-collapse: separate;
+}
+
+td {
+  border-width: 0;
+  border-style: inset;
+  padding: 0;
+}
